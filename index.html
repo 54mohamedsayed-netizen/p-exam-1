@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../fontawesome-free-7.3.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./the-css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./the-css/main.css" />
+
+    <title>import</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body position-fixed">
+      <div class="container">
+        <a class="navbar-brand" href="#">EliteHomes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Properties
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content w-100">
+        <h1 class="text-white ">Find Your Dream Home</h1>
+
+        <p>
+          Discover exceptional properties in prime locations. From modern condos
+          to luxury estates, we help you find the perfect place to call home.
+        </p>
+
+        <div class="search-box w-75 m-auto">
+          <div class="search-field location">
+            <label>Location</label>
+            <input
+              type="text"
+              placeholder="Enter city, neighborhood, or ZIP code"
+            />
+          </div>
+
+          <div class="search-field gap-2 d-flex">
+            <label>Property Type</label>
+            <select>
+              <option>All Types</option>
+              <option>Apartment</option>
+              <option>Villa</option>
+              <option>House</option>
+            </select>
+          </div>
+
+          <div class="search-field gap-2 d-flex">
+            <label>Price Range</label>
+            <select>
+              <option>Any Price</option>
+              <option>$100,000 - $200,000</option>
+              <option>$200,000 - $500,000</option>
+              <option>$500,000+</option>
+            </select>
+          </div>
+
+          <div class="search-field gap-2 d-flex">
+            <label>Bedrooms</label>
+            <select>
+              <option>Any</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4+</option>
+            </select>
+          </div>
+
+          <div class="search-field gap-2 d-flex">
+            <label>Bathrooms</label>
+            <select>
+              <option>Any</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3+</option>
+            </select>
+          </div>
+
+          <div class="search-field gap-2 d-flex">
+            <label>Min Sq Ft</label>
+            <input type="number" placeholder="1,000" />
+          </div>
+
+          <div class="search-field gap-2 d-flex">
+            <label>Max Sq Ft</label>
+            <input type="number" placeholder="5,000" />
+          </div>
+
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Search Properties
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <h2>15,000+</h2>
+            <span>Active Listings</span>
+          </div>
+
+          <div>
+            <h2>98%</h2>
+            <span>Client Satisfaction</span>
+          </div>
+
+          <div>
+            <h2>500+</h2>
+            <span>Expert Agents</span>
+          </div>
+
+          <div>
+            <h2>25</h2>
+            <span>Years Experience</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="prodact text-center mt-5">
+        <span class="rounded-pill border p-1">Premium Collection</span>
+        <h1>Featured Properties</h1>
+        <p>
+          Discover our handpicked selection of premium properties in the most
+          desirable locations
+        </p>
+      </div>
+      <div class="pearant-card d-flex justify-content-center gap-4">
+        <div class="card">
+          <img
+            src="./the-img/featured-properties-img-2.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">$2,850,000</h5>
+
+            <span>4 beds </span>
+            <span> 3.5 baths</span>
+            <span> 6,720 sqft</span>
+
+            <p class="card-text mt-2">
+              1234 Beverly Hills Drive, Beverly Hills, CA 90210
+            </p>
+            <a href="#" class="btn btn-primary pop">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./the-img/featured-properties-img-3.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">$1,425,000</h5>
+
+            <span>4 beds </span>
+            <span> 3.5 baths</span>
+            <span> 6,720 sqft</span>
+
+            <p class="card-text mt-2">
+              1234 Beverly Hills Drive, Beverly Hills, CA 90210
+            </p>
+            <a href="#" class="btn btn-primary pop">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./the-img/featured-properties-img-1.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">$875,000</h5>
+
+            <span>4 beds </span>
+            <span> 3.5 baths</span>
+            <span> 6,720 sqft</span>
+
+            <p class="card-text mt-2">
+              1234 Beverly Hills Drive, Beverly Hills, CA 90210
+            </p>
+            <a href="#" class="btn btn-primary pop">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script src="./The-JS/bootstrap.bundle.min.js"></script>
+    <script src="./The-JS/main.JS"></script>
+  </body>
+</html>
